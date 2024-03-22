@@ -11,7 +11,7 @@ export default function Header() {
         {!navVisible && <HeaderNewChat />}
         <EndpointsMenu />
         <HeaderOptions />
-        <PresetsMenu />
+        {/* <PresetsMenu /> */}
       </div>
       {/* Empty div for spacing */}
       <div />

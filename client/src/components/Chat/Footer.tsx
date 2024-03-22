@@ -12,7 +12,8 @@ export default function Footer() {
     <a
       className=" text-gray-500 underline"
       href={privacyPolicy.externalUrl}
-      target={privacyPolicy.openNewTab ? '_blank' : undefined} rel="noreferrer"
+      target={privacyPolicy.openNewTab ? '_blank' : undefined}
+      rel="noreferrer"
     >
       {localize('com_ui_privacy_policy')}
     </a>
@@ -22,7 +23,8 @@ export default function Footer() {
     <a
       className=" text-gray-500 underline"
       href={termsOfService.externalUrl}
-      target={termsOfService.openNewTab ? '_blank' : undefined} rel="noreferrer"
+      target={termsOfService.openNewTab ? '_blank' : undefined}
+      rel="noreferrer"
     >
       {localize('com_ui_terms_of_service')}
     </a>
@@ -30,7 +32,7 @@ export default function Footer() {
 
   const mainContentRender = (
     <span>
-      {typeof config?.customFooter === 'string' ? (
+      {/* {typeof config?.customFooter === 'string' ? (
         config.customFooter
       ) : (
         <>
@@ -39,7 +41,7 @@ export default function Footer() {
           </a>
           {' - '} {localize('com_ui_new_footer')}
         </>
-      )}
+      )} */}
     </span>
   );
 
